@@ -1,0 +1,9 @@
+# ide
+.idea/
+
+# project
+dist/
+logs/
+
+# node
+node_modules/

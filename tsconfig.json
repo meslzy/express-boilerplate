@@ -1,0 +1,94 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "baseUrl": "source",
+    "outDir": "dist",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@config/*": [
+        "./config/*"
+      ],
+      "@logger/*": [
+        "./logger/*"
+      ],
+      "@server/*": [
+        "./server/*"
+      ],
+      "@types/*": [
+        "./types/*"
+      ],
+      "@application/*": [
+        "./server/application/*",
+        "./server/application/routes/*"
+      ],
+      "@database/*": [
+        "./server/database/*",
+      ],
+      "@socket/*": [
+        "./server/socket/*"
+      ]
+    },
+    "noPropertyAccessFromIndexSignature": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noStrictGenericChecks": false,
+    "noImplicitOverride": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "noEmit": false,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUmdGlobalAccess": true,
+    "allowUnusedLabels": true,
+    "allowJs": true,
+    "disableSourceOfProjectReferenceRedirect": true,
+    "disableReferencedProjectLoad": true,
+    "disableSolutionSearching": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": false,
+    "moduleResolution": "node",
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "declarationMap": false,
+    "stripInternal": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "declaration": false,
+    "composite": false,
+    "checkJs": true,
+    "newLine": "LF",
+    "pretty": true,
+    "strictPropertyInitialization": false,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "useUnknownInCatchVariables": true,
+    "useDefineForClassFields": true,
+    "exactOptionalPropertyTypes": true,
+    "downlevelIteration": true,
+    "preserveConstEnums": true,
+    "isolatedModules": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "source"
+  ]
+}

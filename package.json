@@ -1,0 +1,47 @@
+{
+  "name": "express-boilerplate",
+  "description": "express boilerplate",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "dev": "nodemon dist/index.js",
+    "build": "tsc --build",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "module-alias": "^2.2.2",
+    "compression": "^1.7.4",
+    "sequelize": "^6.21.2",
+    "socket.io": "^4.5.1",
+    "passport": "^0.6.0",
+    "express": "^4.18.1",
+    "nocache": "^3.0.4",
+    "morgan": "^1.10.0",
+    "winston": "^3.8.1",
+    "bcrypt": "^5.0.1",
+    "helmet": "^5.1.0",
+    "cors": "^2.8.5",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/compression": "^1.7.2",
+    "@types/morgan": "^1.9.3",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/node": "18.0.6",
+    "typescript": "^4.7.4",
+    "nodemon": "^2.0.19"
+  },
+  "_moduleAliases": {
+    "@": "./dist",
+    "@config": "./dist/config",
+    "@logger": "./dist/logger",
+    "@server": "./dist/server",
+    "@application": "./dist/server/application",
+    "@database": "./dist/server/database",
+    "@socket": "./dist/server/socket"
+  }
+}
